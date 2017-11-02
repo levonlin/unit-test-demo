@@ -18,7 +18,7 @@ if (!process.argv.some(isDebug)) {
       // 2. add it to the `browsers` array below.
       browsers: ['PhantomJS'],
       frameworks: ['mocha', 'sinon-chai', 'phantomjs-shim'],
-      reporters: ['spec', 'coverage'],
+      reporters: ['spec', 'coverage', 'coveralls'],
       files: ['./index.js'],
       preprocessors: {
         './index.js': ['webpack', 'sourcemap']
@@ -30,7 +30,7 @@ if (!process.argv.some(isDebug)) {
       coverageReporter: {
         dir: './coverage',
         reporters: [
-          { type: 'lcov', subdir: '.' },
+          { type: 'lcov', subdir: '.', repoToken: '9gxmNhL0wUJ0yxTdFVZVk9l4rBTlGT5WB' },
           { type: 'text-summary' }
         ]
       }

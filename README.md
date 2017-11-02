@@ -2,6 +2,8 @@
 
 > A Vue.js project
 
+[![Coverage Status](https://coveralls.io/repos/github/levonlin/unit-test-demo/badge.svg?branch=master)](https://coveralls.io/github/levonlin/unit-test-demo?branch=master)
+
 ## Build Setup
 
 ``` bash
